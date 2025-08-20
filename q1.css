@@ -1,0 +1,307 @@
+.body{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.top{
+    background-color: rgb(221, 104, 9);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family:sans-serif;
+    padding:10px 15px;
+    height:50px;
+    align-items:center;
+    
+
+}
+.lefttop{
+ display: inline-flex;
+}
+.righttop{
+    display: inline-flex;
+    gap:20px;
+    font-size: 15px;
+    padding: 0px;
+    width: 30%;
+
+    
+}
+.righttop img{
+    width: 10%;
+
+}
+.slider{
+    height:100%;
+    overflow: hidden;
+
+}
+
+.slides_container img{
+    width:50%;
+    height: 100%;  
+}
+.slides_container{
+    width:200%;
+    height: 100%;
+    display: flex;
+    animation: slides_ani 10s infinite;
+
+}
+
+@keyframes slides_ani {
+    0%{
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(0); 
+    }
+    
+    75% {
+        transform: translateX(-50%); 
+    }
+    100%{
+        transform: translateX(-50%); 
+
+    }
+
+    
+}
+.pizza-specials h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.specials{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+
+}
+.specials img{
+    width: 100%;
+    border-radius: 5px;
+    
+
+}
+.special1{
+    width:28%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+
+
+}
+.special1:hover{
+    animation: ani1 3s; 
+}
+@keyframes ani1 {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+  }
+.special2{
+    width:28%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+
+}
+.special2:hover{
+    animation: ani2 3s; 
+}
+@keyframes ani2 {
+    from {
+        transform: rotateY(0deg);
+      }
+      to {
+        transform: rotateY(360deg);
+      }
+  }
+.special3{
+    width:28%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+}
+.special3:hover{
+    animation: ani3 3s; 
+}
+@keyframes ani3 {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(-360deg);
+      }
+  }
+
+  .testimonials h2{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 60px;
+    
+  }
+  .testimonials{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+  }
+
+ #name{
+    color: rgb(88, 79, 79);
+  }
+
+  .cta{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .cta h2{
+    margin-bottom: 0px;
+  }
+  .cta button{
+    width:10%;
+    padding: 7px 5px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+  }
+  .cta button:hover{
+   animation: button_ani 2s; 
+  }
+  @keyframes button_ani {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: orangered;
+    }
+  }
+
+  .three-columns{
+    font-family:sans-serif;
+    margin-top: 50px;
+    padding: 30px;
+
+  }
+  .three-columns p{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .three-columns h4{
+    margin-bottom: 20px;
+  }
+  .column1{
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    padding: 10px 20px;
+  }
+  .column2{
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    padding: 10px 20px;
+  }
+  
+  .column3{
+    border-radius: 4px;
+    box-shadow: 0 0 3px gray;
+    padding: 10px 20px;
+  
+  }
+
+  #customer_name{
+color:gray;
+  }
+
+ 
+form{
+    margin:0 auto;
+    width:600px;
+    
+}
+#form-heading{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    font-weight: 700;
+
+}
+label{
+    display: inline-flex;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    color: rgb(65, 61, 61);
+    
+}
+
+input{
+    text-align: left;
+    border-radius: 4px;
+    border:2px solid #a5a2a2;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding:6px 5px;
+    width:100%;
+    height:25px;
+    
+}
+#message{
+    resize: vertical;
+    height:70px;
+    font-family: monospace;
+    font-size: 13px;
+}
+#form-button{
+    margin-bottom: 6px;
+    background-color: rgb(61, 189, 61);
+    color: azure;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 350px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    
+}
+
+footer{
+    margin-top: 40px;
+    background-color: rgb(221, 104, 9) ;
+    padding:20px;
+    text-align: center;
+    font-family:sans-serif;
+    color: white;
+    font-size: small;
+
+}
+
+ 
