@@ -17,7 +17,7 @@ It showcases a fictional pizza restaurant with a clean layout, animated image sl
 
 ---
 
-## 🖼 Screenshot
+## 🖼 Screenshots
 
 <p align="center">
   <img src="./images/slider.jpg" alt="Sliders Section" width="200" />
