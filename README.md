@@ -20,8 +20,12 @@ It showcases a fictional pizza restaurant with a clean layout, animated image sl
 ## 🖼 Screenshot
 
 <p align="center">
-  <img src="./images/screenshot.png" alt="Pizza Delight Homepage" width="600" />
+  <img src="./images/sliders.jpg" alt="Sliders Section" width="200" />
+  <img src="./images/specials.jpg" alt="Specials Section" width="200" />
+  <img src="./images/feebacks.jpg" alt="Customer Feedback Section" width="200" />
+  <img src="./images/contactUS.jpg" alt="Contact Us Section" width="200" />
 </p>
+
 
 ---
 
